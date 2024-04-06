@@ -1,0 +1,44 @@
+body {
+    background-color: #ecece7;
+    font-family: Zen Maru Gothic, sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.8rem;
+}
+
+#mainNavbar .nav-link {
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link:hover {
+    color: white;
+}
+
+.section-top {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+@media(max-width: 1200px) {
+    #mainNavbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+    #mainNavbar .nav-link {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 576px) {
+    #mainNavbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+    #mainNavbar .nav-link {
+        font-size: 1.0rem;
+    }
+}
