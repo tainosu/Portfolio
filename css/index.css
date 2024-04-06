@@ -23,6 +23,7 @@ body {
 .section-top {
     margin-top: 4rem;
     text-align: center;
+    font-weight: 700;
 }
 
 @media(max-width: 1200px) {
